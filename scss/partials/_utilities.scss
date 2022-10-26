@@ -1,0 +1,283 @@
+
+// font family
+$sansFont:Source Sans Pro, sans-serif; 
+$ralewayFont:Raleway, sans-serif;
+
+// font wight
+$fontWSM:400;
+$fontWMD:600;
+$fontWLG:700;
+$fontWXL:900;
+
+// color
+$dark1:#000;
+$dark2:#111111;
+$darkGray:#414141;
+$lightGray:#707070;
+$whiteColor:#FFFFFF;
+$secondWhite:#FEF7F6;
+$secOrangeColor:#F47F6F;
+$orangeColor:#F15A46;
+$depOrangeColor:#D63722;
+$depOrangeColor1:#E3402B;
+$yellowColor:#FFA800;
+
+$activeColor: $orangeColor;
+.in-activeColor{
+    color: $lightGray;
+} 
+
+$whiteOffColor:#FEF7F6;
+
+// breakPoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 767px;
+$breakpoint-lg: 991px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+
+// from old code 
+
+$source: "Source Sans Pro", sans-serif;
+$inter: "Inter", sans-serif;
+$roboto: "Roboto", sans-serif;
+
+/* colors */
+$dark: #414141;
+$orange: #f15a46;
+$orange1: #e3402b;
+$muted: #6e6e6e;
+$inactive: #f3f3f3;
+$strategy: #f47f6f;
+$footer: #d63722;
+
+/* gaps */
+$hundred: 100px;
+$sixty: 60px;
+$fifty: 50px;
+$seventy: 70px;
+
+/* sizes */
+$twelve: 12px;
+$twentyTwo: 22px;
+$twentyFour: 24px;
+$twenty: 20px;
+$thirty: 30px;
+$thirtyFour: 34px;
+$fourty: 40px;
+$fourtyFive: 45px;
+
+/* percentages */
+$twentyP: 20%;
+
+/* universal */
+
+.source {
+font-family: $source;
+}
+
+.inter,
+* {
+font-family: $inter;
+}
+
+.roboto {
+font-family: $roboto;
+}
+
+.fs-22 {
+font-size: $twentyTwo;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.white{
+    color: $whiteColor;
+}
+
+body,
+html {
+overflow-x: hidden;
+}
+
+
+// from old code 
+
+textarea:focus,
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  padding: 10px 7px;
+}
+
+body, p{
+    font: {
+        size: 16px;
+        weight: $fontWSM;
+      }
+}
+
+p{
+    margin: 0 0 15px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: $fontWMD;
+    margin: 0 0 15px;
+    line-height: 1.2em;
+
+}
+
+.customBtn{
+    display: inline-block;
+    background: $orangeColor;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: $whiteColor;
+    line-height: 24px;
+    text-align: center;
+    font: {
+        weight:$fontWSM;
+        size: 18px;
+    }
+  
+    &:hover{
+        text-decoration: none;
+        background-color: $whiteColor;
+        color: $orangeColor;
+        border: 1px solid $orangeColor;
+    }
+}
+
+.btn-orange{
+    display: inline-block;
+    background: $orangeColor;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: $whiteColor;
+    text-align: center;
+    line-height: 24px;
+    font: {
+        weight:$fontWSM;
+        size: 18px;
+    }
+
+    &:hover{
+        color: $whiteColor;
+    }
+}
+.btn-orange-sm{
+    display: inline-block;
+    background: $orangeColor;
+    padding: 5px 8px;
+    border-radius: 3px;
+    color: $whiteColor;
+    text-align: center;
+    font: {
+        weight:$fontWMD;
+        size: 13px;
+        
+    }
+
+    &:hover{
+        color: $whiteColor;
+    }
+}
+.btn-white{
+    display: inline-block;
+    background: $whiteColor;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: $orangeColor;
+    line-height: 24px;
+    text-align: center;
+    font: {
+        weight:$fontWSM;
+        size: 18px;
+    }
+
+    &:hover{
+        color: $orangeColor;
+    }
+}
+
+.btn-shop{
+    padding: 7px 8px;
+    border: 0.661372px solid #CFCFCF;
+    border-radius: 3px;
+    color: $lightGray;
+    font: {
+        weight:$fontWMD;
+        size: 13px;
+        
+    }
+
+    &:hover{
+        color: $lightGray;
+    }
+}
+
+
+.tab-btn{
+    display: inline-block;
+    background: $whiteColor;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: $lightGray;
+    line-height: 24px;
+    margin: 7px 5px;
+    font: {
+        weight:$fontWSM;
+        size: 18px;
+    }
+
+    &:hover{
+        color: $lightGray;
+    }
+}
+
+.active-btn{
+    border:1px solid $orangeColor;
+}
+
+.them-details{
+    display: inline-block;
+    background: #F3F3F3;
+    border: 0.5px solid #9F9F9F;
+    padding: 7px 8px;
+    border: 0.661372px solid #CFCFCF;
+    border-radius: 3px;
+    color: #3E3E3E;
+    font: {
+        weight:$fontWSM;
+        size: 16px;
+        
+    }
+
+    &:hover{
+        color: #3E3E3E;
+    }
+}
+
+.muted-btn{
+    display: inline-block;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    color: #0E0E0E;
+    padding: 8px 10px;
+    margin: 10px 0;
+    font: {
+        weight:$fontWSM;
+        size: 14px;
+        
+    }
+
+    &:hover{
+        color: #0E0E0E;
+    }
+}

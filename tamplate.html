@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- google fonts cdn -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Roboto:wght@400;500;700&family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+    <!-- slick -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+
+    <!-- style css -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/img/1.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <section class="header py-2" id="top">
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/1.png" class="img-fluid logo" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item px-3">
+                <a class="nav-link fw-bold active dark" href="#">About Us</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link fw-bold dark" href="#">Services</a>
+              </li>
+              <li class="nav-item dropdown px-3">
+                <a
+                  class="nav-link dropdown-toggle dark fw-bold"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Resources
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link fw-bold dark" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link fw-bold btn btn-orange text-white rounded-0 px-4" href="#"
+                  >REQUEST A QUOTE</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- HEADER -->
+    <main>
+      <!-- filter section -->
+      <section class="filter-section">
+        <div class="container">
+          <h2 class="page-title">
+            Beautiful website templates <br />
+            made for every industry
+          </h2>
+
+          <div class="filter-box">
+            <ul class="filter-container">
+              <li><a class="active-color" href="#">Most Popular</a></li>
+              <li><a class="in-active-color" href="#">Online Store</a></li>
+              <li>
+                <div class="dropdown">
+                  <a
+                    class="dropdown-toggle drop-button"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Business & Services
+                  </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                  <a
+                    class="dropdown-toggle drop-button"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Creative
+                  </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                  <a
+                    class="dropdown-toggle drop-button"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Community
+                  </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a class="in-active-color" href="#">All Templates</a></li>
+
+              <li>
+                <a class="customBtn" href="#" data-bs-toggle="modal" data-bs-target="#proposalModal"
+                  >PICK YOUR PLAN</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- templates -->
+      <section class="templates">
+        <div class="container">
+          <h2 class="template-title">Most Popular</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="template">
+                <div class="text-center">
+                  <img src="assets/img/templates/catering.png" alt="" />
+                </div>
+                <div>
+                  <h3>CATERING SERVICES</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="template">
+                <div class="text-center">
+                  <img src="assets/img/templates/CHARITY.png" alt="" />
+                </div>
+                <div>
+                  <h3>CHARITY</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="template">
+                <div class="text-center">
+                  <img src="assets/img/templates/CITY HOTEL.png" alt="" />
+                </div>
+                <div>
+                  <h3>CITY HOTEL</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="template">
+                <div class="text-center">
+                  <img src="assets/img/templates/fashion.png" alt="" />
+                </div>
+                <div>
+                  <h3>FASHION</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="template">
+                <div class="text-center">
+                  <img src="assets/img/templates/FUNERAL SERVICES.png" alt="" />
+                </div>
+                <div>
+                  <h3>FUNERAL SERVICES</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="template">
+                <div class="text-center">
+                  <img src="assets/img/templates/LANDSCAPEPHOTOGRAPHER.png" alt="" />
+                </div>
+                <div>
+                  <h3>LANDSCAPE PHOTOGRAPHER</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="template">
+                <div class="text-center">
+                  <img src="assets/img/templates/MOVING COMPANY.png" alt="" />
+                </div>
+                <div>
+                  <h3>MOVING COMPANY</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="template">
+                <div class="text-center">
+                  <img src="assets/img/templates/PORTFOLIO.png" alt="" />
+                </div>
+                <div>
+                  <h3>PORTFOLIO</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="template">
+                <div class="text-center">
+                  <img src="assets/img/templates/PRODUCT PAGE.png" alt="" />
+                </div>
+                <div>
+                  <h3>PRODUCT PAGE</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="template">
+                <div class="text-center">
+                  <img src="assets/img/templates/PROPERTYMANAGER.png" alt="" />
+                </div>
+                <div>
+                  <h3>PROPERTY MANAGER</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="template">
+                <div class="text-center">
+                  <img src="assets/img/templates/WRITER.png" alt="" />
+                </div>
+                <div>
+                  <h3>WRITER</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="template">
+                <div class="text-center">
+                  <img src="assets/img/templates/YOGA.png" alt="" />
+                </div>
+                <div>
+                  <h3>YOGA</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- build -->
+      <section class="build">
+        <h3>Find the right template for you</h3>
+        <p>Create a job and get matched with experts best suited to your needs.</p>
+        <a href="#" data-bs-toggle="modal" data-bs-target="#proposalModal">BULD YOUR WEBSITE</a>
+      </section>
+    </main>
+
+    <!--Proposal Modal -->
+    <div
+      class="modal fade"
+      id="proposalModal"
+      tabindex="-1"
+      aria-labelledby="proposalModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-head">
+            <div></div>
+            <h3 class="modal-title" id="proposalModalLabel">Request a Proposal</h3>
+            <button type="button" class="close-btn ms-1" data-bs-dismiss="modal" aria-label="Close">
+              <img src="assets/icon/close.png" alt="" />
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="direction">Fill Out Our Form & We’ll be in Touch Shortly</p>
+
+            <!-- form -->
+            <div class="form-space">
+              <form action="">
+                <p class="require">"*" indicates required fields</p>
+                <div class="row">
+                  <div class="col-md-6 my-2">
+                    <input
+                      class="form-control"
+                      type="text"
+                      name="first-name"
+                      id="firstName"
+                      placeholder="First Name*"
+                    />
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <input
+                      class="form-control"
+                      type="text"
+                      name="last-name"
+                      id="lastName"
+                      placeholder="First Name*"
+                    />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6 my-2">
+                    <input class="form-control" type="email" name="email" id="email" placeholder="Email*" />
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <input class="form-control" type="tel" name="number" id="number" placeholder="Number*" />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6 my-2">
+                    <input
+                      class="form-control"
+                      type="text"
+                      name="company"
+                      id="company"
+                      placeholder="Company*"
+                    />
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected value="0">How did you hear about...</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <h4 class="project-type">Type of Project*</h4>
+                  <div class="row">
+                    <div class="col-md-6 my-2">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="webSite" checked />
+                        <label class="form-check-label" for="webSite"> Web site </label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 my-2">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="branding" />
+                        <label class="form-check-label" for="branding"> Branding </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 my-2">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="marketing" />
+                        <label class="form-check-label" for="marketing"> Marketing Automation </label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 my-2">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="mobileApp" />
+                        <label class="form-check-label" for="mobileApp"> Mobile App </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 my-2">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="SEO" />
+                        <label class="form-check-label" for="SEO"> SEO Audti </label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 my-2">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="socialMedia" />
+                        <label class="form-check-label" for="socialMedia"> Social Media </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 my-2">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="emailMarketing" />
+                        <label class="form-check-label" for="emailMarketing"> Email Marketing </label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 my-2">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="PPC" />
+                        <label class="form-check-label" for="PPC"> PPC </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 my-2">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Amazon" />
+                        <label class="form-check-label" for="Amazon"> Amazon </label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 my-2">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Marketing-Other" />
+                        <label class="form-check-label" for="Marketing-Other"> Marketing-Other </label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="my-3">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="confirmation" />
+                      <label class="form-check-label" for="confirmation">
+                        Yes-I want to learn how lounge lizard can fund my ecom brand to help scate sales.
+                      </label>
+                    </div>
+                  </div>
+
+                  <div>
+                    <textarea
+                      style="height: 100px"
+                      class="form-control"
+                      placeholder="Project Details*"
+                      id="floatingTextarea"
+                    ></textarea>
+                  </div>
+
+                  <div class="my-2">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="agre" checked />
+                      <label class="form-check-label" for="confiagrermation">
+                        Sign up for lounge lizard libation Get monthly marketing, web, mobiletips and insight.
+                      </label>
+                    </div>
+                  </div>
+                  <div>
+                    <a class="proposal-submit-btn" href="#">SUBMIT</a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="proposel-footer form-space">
+            <hr />
+            <div class="address-section">
+              <p class="address-title">
+                PH: 1-888-444-0110 <br />
+                Sales: Ext. 101
+              </p>
+
+              <div class="row addres-box">
+                <div class="col-md-7 address">
+                  <h5>New York City</h5>
+                  <p>
+                    112 West 34th Street
+                    <br />
+                    18th Floor <br />
+                    New York, NY 10120
+                  </p>
+                </div>
+                <div class="col-md-5 address">
+                  <h5>Long Island</h5>
+                  <p>
+                    991 Main St.
+                    <br />
+                    Suite 200 <br />
+                    Holbrook, NY 11741
+                  </p>
+                </div>
+              </div>
+              <div class="row addres-box">
+                <div class="col-md-7 address">
+                  <h5>Washington D.C.</h5>
+                  <p>
+                    1101 Connecticut Avenue NW
+                    <br />
+                    Suite 450 <br />
+                    New York, NY 10120 Washington, DC 20036
+                  </p>
+                </div>
+                <div class="col-md-5 address">
+                  <h5>Nashville</h5>
+                  <p>
+                    424 Church St
+                    <br />
+                    St Suite 2000
+                    <br />
+                    Nashville, TN 37219
+                  </p>
+                </div>
+              </div>
+              <div class="row addres-box">
+                <div class="col-md-7 address">
+                  <h5>Los Angeles</h5>
+                  <p>
+                    1100 Glendon Avenue
+                    <br />
+                    17th Floor <br />
+                    Pleasantville, CA 90024
+                  </p>
+                </div>
+                <div class="col-md-5 address">
+                  <h5>Miami</h5>
+                  <p>
+                    1221 Brickell Ave
+                    <br />
+                    Suite 900 <br />
+                    Miami, FL 33131
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- strategy -->
+    <section class="strategy py-5">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="fs-50 text-white fw-bold">Let’s talk about your growth strategy.</h2>
+          <button class="btn btn-light mt-4 py-3 px-5 fs-24 text-orange">Schedule a meeting</button>
+        </div>
+      </div>
+    </section>
+    <!-- strategy -->
+
+    <!-- slider -->
+    <section class="sliderSection">
+      <div class="container-fluid px-0">
+        <div class="row">
+          <div class="col-md-6 p-0 bg-orange py-100">
+            <div class="card border-0 bg-transparent">
+              <div class="card-body p-5">
+                <div class="row">
+                  <div class="col-md-3 p-2 m-auto">
+                    <img src="assets/img/footer-roket 1.png" class="img-fluid" alt="" />
+                  </div>
+                  <div class="col-md-9">
+                    <h2 class="fw-bold text-white">We’ve driven over</h2>
+                    <div class="d-flex justify-content-between align-items-center mb-5">
+                      <span class="text-orange bg-white">6</span>
+                      <span class="text-orange bg-white">2</span>
+                      <span class="text-orange bg-white">8</span>
+                      <span class="text-orange bg-white">9</span>
+                      <span class="text-orange bg-white">7</span>
+                      <span class="text-orange bg-white">0</span>
+                      <span class="text-orange bg-white">1</span>
+                    </div>
+                    <h2 class="fw-bold text-white">Leads for clients.</h2>
+                    <p class="text-white fw-bold">Discover how we can help your business grow</p>
+
+                    <div class="input-group bg-white rounded-3 p-2 justify-content-between">
+                      <input
+                        type="text"
+                        class="border-0 bg-transparent form-control"
+                        placeholder="Enter Your Email"
+                        name=""
+                        id=""
+                      />
+                      <input
+                        type="submit"
+                        class="btn btn-orange text-white rounded"
+                        value="Send Me a Proposal"
+                        name=""
+                        id=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 p-0 bg-orange-1">
+            <div class="card border-0 bg-transparent h-100">
+              <div class="card-body p-5 h-100">
+                <div>
+                  <div class="sliderr">
+                    <div class="slide p-4">
+                      <p class="fs-30 text-white fw-semibold mb-5">
+                        LSKIT did everything they said they would do you and did it on time! The whole process
+                        was very easy!
+                      </p>
+                      <p class="fs-40 text-white fw-bold mb-0">CEO</p>
+                      <p class="fs-20 text-white">John</p>
+                    </div>
+                    <div class="slide p-4">
+                      <p class="fs-30 text-white fw-semibold mb-5">
+                        LSKIT did everything they said they would do you and did it on time! The whole process
+                        was very easy!
+                      </p>
+                      <p class="fs-40 text-white fw-bold mb-0">CEO</p>
+                      <p class="fs-20 text-white">John</p>
+                    </div>
+                    <div class="slide p-4">
+                      <p class="fs-30 text-white fw-semibold mb-5">
+                        LSKIT did everything they said they would do you and did it on time! The whole process
+                        was very easy!
+                      </p>
+                      <p class="fs-40 text-white fw-bold mb-0">CEO</p>
+                      <p class="fs-20 text-white">John</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- slider -->
+
+    <!-- footer -->
+    <section class="footer pt-5 bg-orange">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 p-3">
+            <div class="d-flex align-content-center">
+              <img src="assets/img/avatar 1.png" class="img-fluid avatar" alt="" />
+              <div class="content ps-4">
+                <p class="text-white mb-0">Ready to speak with a marking expert? Give us a ring</p>
+                <a href="" class="fs-50 text-white fw-bold text-decoration-none"> 888-256-9448 </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 p-3 m-auto">
+            <div class="d-flex align-content-center justify-content-between">
+              <div class="item p-3 text-center">
+                <h4 class="text-white fw-bold">1.6 million</h4>
+                <p class="text-white">Hours of Expertise</p>
+              </div>
+              <div class="item p-3 text-center">
+                <h4 class="text-white fw-bold">450+</h4>
+                <p class="text-white">Digital Marketing Masters On Staff</p>
+              </div>
+              <div class="item p-3 text-center">
+                <h4 class="text-white fw-bold">1,128</h4>
+                <p class="text-white">Websites Launched</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+
+    <div class="container">
+      <p class="text-center my-2">© 2022 Unified Infotech Inc. All rights reserved.</p>
+    </div>
+
+    <!-- whatsapp -->
+    <div class="whatsapp">
+      <a href="https://wa.me/923008000000" target="_blank">
+        <img src="assets/img/whatsapp.png" class="img-fluid" alt="" />
+      </a>
+    </div>
+    <!-- whatsapp -->
+
+    <!-- back to top -->
+    <div class="back-to-top" id="scrollBtn">
+      <a href="#top">
+        <img src="assets/img/top.png" alt="" />
+      </a>
+    </div>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- waypoints -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <!-- slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <!-- counter up -->
+    <script src="counterup/jquery.rcounter.js"></script>
+
+    <!-- app js -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
